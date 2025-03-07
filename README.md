@@ -129,12 +129,15 @@ exit 1
 
 - Tener git bash instalado
 
-<image src="https://www.docker.com/app/uploads/2023/05/symbol_blue-docker-logo.png" alt="Descripción de la imagen"  width="70" height="50"><image src="https://cdn.worldvectorlogo.com/logos/git-bash.svg" alt="Descripción de la imagen"  width="70" height="50">
+<a href="https://docs.docker.com/get-started/get-docker/"><image src="https://www.docker.com/app/uploads/2023/05/symbol_blue-docker-logo.png" alt="Descripción de la imagen"  width="70" height="50"></a><a href="https://git-scm.com/downloads"><image src="https://cdn.worldvectorlogo.com/logos/git-bash.svg" alt="Descripción de la imagen"  width="70" height="50"></a>
 
 
 Dirigente a la carpeta donde quieres clonar el proyecto
 
-c
+```sh
+cd ruta/de/tu/carpeta
+```
+
 Clonar el repostorio https://github.com/elkofix/parcial-ingesoftV.git en git bash
  
 ```sh
