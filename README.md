@@ -122,10 +122,37 @@ exit 1
 - Registrar logs de construcción para monitores de fallos contra éxitos
 
 ## Instrucciones para Ejecutar
-#### Linux
 
-Clonar el repostorio
+### Requisitos previos
+
+- Tener docker instalado 
+
+- Tener git bash instalado
+
+<image src="https://www.docker.com/app/uploads/2023/05/symbol_blue-docker-logo.png" alt="Descripción de la imagen"  width="70" height="50">
+
+<image src="https://cdn.worldvectorlogo.com/logos/git-bash.svg" alt="Descripción de la imagen"  width="70" height="50">
+
+
+Dirigente a la carpeta donde quieres clonar el proyecto
+
+c
+Clonar el repostorio https://github.com/elkofix/parcial-ingesoftV.git en git bash
+ 
+```sh
+git clone https://github.com/elkofix/parcial-ingesoftV.git
+```
+
+Acceder al repositorio
 
 ```sh
-
+cd ArquitecturaSFV-P1
 ```
+
+Correr el script de ejecución con git bahs
+
+```sh
+./build.sh
+```
+
+Ya podrás acceder al programa desde http://localhost:8080, con herramientas como curl o postman
