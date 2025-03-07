@@ -130,7 +130,6 @@ exit 1
 - Tener git bash instalado
 
 <image src="https://www.docker.com/app/uploads/2023/05/symbol_blue-docker-logo.png" alt="Descripción de la imagen"  width="70" height="50">
-
 <image src="https://cdn.worldvectorlogo.com/logos/git-bash.svg" alt="Descripción de la imagen"  width="70" height="50">
 
 
