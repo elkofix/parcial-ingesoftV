@@ -21,7 +21,7 @@ WORKDIR /app
 # Copia solo los archivos necesarios para instalar dependencias, lo hago primero para evitar invalidaciones de caché
 COPY package*.json ./
 
-# Instala dependencias con npm ci para mayor consistencia y rendimiento, porque omite la resolucion de versiones
+# Instala dependencias con npm ci para mayor consistencia y rendimiento, porque omite la resolución de versiones
 RUN npm ci --only=production
 
 # Copia el resto de los archivos de la aplicación
@@ -39,8 +39,8 @@ CMD ["node", "app.js"]
 
 ## Script de Automatización
 
-Este script define las variables de entorno, luego verifica si docker esta instalado, sino lo esta, devuelve una alerta y para, luego, construye la imagen, verifica si el contenedor definido en la variable de entorno existe, si existe, lo eliminar y crea uno nuevo, si no simplemente lo crea, por ultimo crea el contenedor y hace una prueba a la aplicación,
-si esta es exitosa dentro de 30s, retorna un mensaje de exito, si no retorna un aviso de error.
+Este script define las variables de entorno, luego verifica si docker esta instalado, sino lo esta, devuelve una alerta y para, de no ser así, construye la imagen, verifica si el contenedor definido en la variable de entorno existe, si existe, lo elimina y crea uno nuevo, si no simplemente lo crea, por ultimo crea el contenedor y hace una prueba a la aplicación,
+si esta es exitosa dentro de 30s, retorna un mensaje de éxito, si no retorna un aviso de error.
 
 ```sh
 #!/bin/bash
@@ -150,7 +150,7 @@ Acceder al repositorio
 cd ArquitecturaSFV-P1
 ```
 
-Correr el script de ejecución con git bahs
+Correr el script de ejecución con git bash
 
 ```sh
 ./build.sh
