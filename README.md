@@ -119,7 +119,7 @@ exit 1
 ## Mejoras Futuras
 - Hacer un pipeline para que se despliegue en un servidor remoto
 - Mostrar el tiempo de construcción y almacenarlo para futuras comparaciones
-- Registrar logs de construcción para monitores de fallos contra éxitos
+- Registrar logs de construcción para monitoreos de fallos contra éxitos
 
 ## Instrucciones para Ejecutar
 
