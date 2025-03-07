@@ -110,7 +110,7 @@ exit 1
 ```
 
 ## Principios DevOps Aplicados
-1. Automtización 
+1. Automatización 
 2. Medición
 3. Mejora continua
 
